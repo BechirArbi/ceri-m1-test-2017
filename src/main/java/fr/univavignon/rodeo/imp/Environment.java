@@ -12,7 +12,7 @@ import fr.univavignon.rodeo.api.ISpecie;
 		private int areas;
 		private List<ISpecie> species;
 
-		public Environment(final String name, final int areas, final List<ISpecie> species) {
+		public Environment(String name, int areas, List<ISpecie> species) {
 			this.name = name;
 			this.areas = areas;
 			this.species = species;
