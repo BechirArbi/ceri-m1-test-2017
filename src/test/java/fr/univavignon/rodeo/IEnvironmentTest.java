@@ -26,11 +26,7 @@ public final class IEnvironmentTest {
 		
 		when(environnementMock.getSpecies()).thenReturn (liste);
 		when(environnementMock.getAreas()).thenReturn (1);
-
 	}
-
-	
-	
 
 	public void getSpeciesTest (){
 		Assert.assertEquals (liste , environnementMock.getSpecies());
@@ -40,6 +36,5 @@ public final class IEnvironmentTest {
 	public void getAreasTest (){
 		Assert.assertEquals (1 , environnementMock.getAreas());
 	}
-	
 }
 
