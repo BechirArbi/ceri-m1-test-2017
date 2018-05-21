@@ -47,7 +47,7 @@ public class IGameStateTest {
 	}
 
 	
-	// Tester les exeception de l'interface IGameState 
+	// Tester les execeptions de l'interface IGameState 
 	
 	@Test(expected = IllegalStateException.class)
 	public void testExploreArea() {
