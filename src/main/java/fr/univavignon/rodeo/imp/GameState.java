@@ -48,7 +48,7 @@ public class GameState implements IGameState {
 
 	}
 	@Override
-	public SpecieLevel getSpecieLevel(ISpecie specie) 	throws IllegalArgumentException {
+	public SpecieLevel getSpecieLevel(ISpecie specie) throws IllegalArgumentException {
 		return null;
 	}
 
