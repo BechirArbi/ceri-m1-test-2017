@@ -1,8 +1,8 @@
 package fr.univavignon.rodeo;
 
 import static org.mockito.Mockito.*;
-import junit.framework.Assert;
 
+import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -30,6 +30,7 @@ public class IAnimalTest {
 
 	
 	
+	
 	public void getXPTest() {
 		
 		Assert.assertEquals (1 , animalMock.getXP());
@@ -42,7 +43,7 @@ public class IAnimalTest {
 	
 	@Test
 	public void isEndangeredTest() {
-		Assert.assertEquals (false , animalMock.isEndangered());
+		Assert.assertEquals (true , animalMock.isEndangered());
 		}
 	@Test
 	public void isBossTest() {
