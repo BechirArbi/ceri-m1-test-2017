@@ -5,10 +5,8 @@ import static org.mockito.Mockito.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import junit.framework.Assert;
-
+import org.junit.Assert;
 import org.junit.Rule;
-import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
@@ -52,13 +50,4 @@ public class IEnvironmentProviderTest {
 		Assert.assertEquals (liste , environnementproviderMock.getAvailableEnvironments());
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }
