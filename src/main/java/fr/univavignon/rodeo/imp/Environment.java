@@ -32,7 +32,6 @@ import fr.univavignon.rodeo.api.ISpecie;
 		public List<ISpecie> getSpecies() {
 			return species;
 		}
-
 	}
 	
 	
